@@ -1,23 +1,20 @@
 # Interview::Behavior::Story
 
-## 自我介绍
+## 自我介绍 (v3)
 
 - 按照个人背景，项目经验，专业技能三方面分点阐述
 - 控制在 40 秒左右，根据面试官的提问深入阐述
 
 %
 
-My name is Lai Si you can call me Kevin if you like. I'm a Front End Engineer passionate about creating web apps. I enjoy the process of transforming design concepts into interactive and functional interfaces. I'm constantly learning and staying up-to-date with the latest trends and technologies in the field of web development.
+My name is Lai Si you can call me Kevin if you like. I'm a Front End Engineer passionate about web development. I enjoy the process of transforming design concepts into beautiful and intuitive user interfaces. My work keeps me inspired, and I always look for ways to learn and keep up with the latest trends and technologies in web development.
 
-I have been working in this area for over 9 years, I involved in dev, maintain dozens of projects in numerix, which has given me extensive knowledge and experience in developing these applications. The technologies I have worked with include Javascript, Java, HTML, CSS  and various open-source frameworks such as React, JSF, and Spring, etc.
+With over 9 years of experience in this field, I have involved in developing dozens of successful projects. Through this journey, I have gained invaluable knowledge and expertise in creating cutting-edge applications using morden web development technologies such as Javascript, TypeScript, HTML, CSS and various open-source libraries like React, Redux, Webpack, etc.
 
-My resent project is Numerix OneView. It is a risk management and trading platform designed for financial institutions such as banks, hedge funds, and asset managers. It helps these firms manage risk and optimize trading strategies across a wide range of asset classes, including derivatives, structured products, and fixed income instruments.
+In addition to my engineering skills, I'm also responsible for mentor intern and junior developer for our front-end team. I take great pride in providing valuable guidance and support to our team members.
 
-Apart from my engineering skills, I'm also responsible for mentor intern and junior developer for our front-end team. I'm a great team player and can glue team together and effectively collaborate with other teams.
-
-Based on my research, I believe that this position fits my skill sets very well(js/ts, react, redux, webpack...), it will provide me a chance to work with cutting-edge technologies as well as learn from the most talented professionals.
-
-Overall, this opportunity aligns with my career goals and interests, and I am excited to bring my skills and passion to contribute to your growth and success.
+[optional]
+Based on my research, I believe that this position fits my skill sets very well(js/ts, react, redux, webpack...), it will provide me a chance to work with cutting-edge technologies as well as learn from the other talented professionals. I will be excited to be able to bring my skills and passion to contribute to your growth and success.
 
 ## Please briefly introduce your recent project. Which modules are you mainly responsible for?
 
