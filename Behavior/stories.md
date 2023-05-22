@@ -16,23 +16,34 @@ In addition to my engineering skills, I'm also responsible for mentor intern and
 [optional]
 Based on my research, I believe that this position fits my skill sets very well(js/ts, react, redux, webpack...), it will provide me a chance to work with cutting-edge technologies as well as learn from the other talented professionals. I will be excited to be able to bring my skills and passion to contribute to your growth and success.
 
-## Please briefly introduce your recent project. Which modules are you mainly responsible for?
+## Project Introduction 01: Numerix OneView (v1)
+
+- Please briefly introduce your recent project.
+- What technologies did you use?
+- Which modules are you mainly responsible for?
+- What is the difficulty in the project? What is the most challenging part?
 
 %
 
-For the pase few years, I'v worked on Numerix OneView. It is a risk management and trading platform designed for financial institutions such as banks, hedge funds, and asset managers. It helps these firms manage risk and optimize trading strategies across a wide range of asset classes, including derivatives, structured products, and fixed income instruments.
+For the pase few years, I'v worked on Numerix OneView. It is a risk management and trading platform designed for financial institutions such as banks, hedge funds, and asset managers. It helps these firms manage risk and optimize trading strategies across a wide range of asset classes such as derivatives, fixed income instruments.
 
 Our team responsible for architecture and development of the front-end. We used Javascript/TypeScript, React and Redux to develop and optimize GUI components.
 Apart from development, I am also responsible for mentoring interns and junior developers for out team.
 
-## What is the difficulty in the project? What is the most challenging part?
+performance optimization + monitoring system + 前端工程化 (?)
 
-%
+## Project Introduction 02: Numerix (v1)
 
-Numerix OneView(1-0): performance optimization + monitoring system + 前端工程化 (?)
-Numerix XVA: performance optimization
-Numerix ESG: learning curve of React and Redux as switch from JSF
-Support protal/download page rebuild: new field, how you learn Salesforce DX toolkit and Lightning framework
+Numerix XVA: performance optimization （jsf performance optimization）
+
+
+## Project Introduction 01: Numerix OneView (v1)
+
+Numerix ESG: learning curve of React and Redux as switch from JSF (jsf to react transition)
+
+## Project Introduction 01: Numerix OneView (v1)
+
+Support protal/download page rebuild: new field, how you learn Salesforce DX toolkit and Lightning framework (leanring salesforce)
 
 ## 1-0 How we identified the protential performance issue and optimizing ui performance(React). (v2)
 
