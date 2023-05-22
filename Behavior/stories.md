@@ -95,6 +95,9 @@ you perform a thorough analysis - using your subject matter expertise. The highl
 
 Few years ago, I was responsible for maintaining and developing the **NumerixXVA** GUI. The architecture of the app was based on **JSF**, a SSR framework build on Java(Servlet API). The server is written in **Java** and used **Spring** and **Hibernate**.
 
+加说一下如何reproduce the issue, 如果不能简单reproduce, 可以强调一下你如何克服困难想 最终办法 reproduce 的
+如果问题严重，不能短时间解决，还可能需要 rollback 来争取时间
+
 As the project gets bigger, we starts to experience slow loading speeds and laggy screen on some pages. We decided to dig into the issue before it gets worse.
 
 Using chrome dev tools I'm able to monitor components rendering time (target at 16ms) and identified that the issue was caused by some datatables. Espically when loaded with a large amount of data.
@@ -106,6 +109,7 @@ We then started refactoring the code, there are three main techniqies we used to
   3. Use **pagination** (only for certain datatable): we implemented pagination support for the datatable, it prevents loading thousands of rows all at once. Paginated requests query at only 50/100 rows per call(depends on the setting), this reduced the rendering time of the datatable as well as the burden on the server side.
 
 The page runs much smoother after refactor. Additionally, there has been an average 50% reduction in the first-page loading time.
+加上，之前之后的时间对比
 
 [#Behavior::Question::CuttingthroughAmbiguity/DecisionMaking/Prioritization]
 
@@ -385,12 +389,13 @@ Maintaining a good work-life balance is important to me as it allows me to recha
 
 ---
 
-During one of my previous projects, I was approached by the QA team manager and was asked to help develop a modern UI for their internal tool, Template Studio. Given my interest and passion for frontend development, I jumped at the chance of working on this project without giving much thought to the requirements.
+During one of my previous project, I was approached by the QA team manager and was asked to help develop a modern UI for their internal tool, Template Studio. Given my interest and passion for frontend development, I jumped at the chance of working on this project without giving much thought to the requirements.
 
 My team and I worked tirelessly to deliver a beautiful UI in the shortest time possible. Once we presented it to the QA team, they immediately began selling the product to a few clients who had expressed interest previously.
 
 However, to our surprise, the clients were not interested in the product anymore. They had found a solution that met their needs, and Template Studio was not able to offer something unique or better. It was then that we realized that we failed to conduct proper market research to understand the needs of our potential users.
 
 Learning from this experience, I stressed the importance of doing thorough market research before jumping into any project. We learned that the product's marketability is just as important as its quality.
+add detail why client not want this product
 
 [#Behavior::Question::PersonalGrowth]
