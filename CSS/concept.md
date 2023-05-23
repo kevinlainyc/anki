@@ -36,7 +36,7 @@ static, fixed, absolute, relative, and sticky
    - Use top, right, bottom, and left properties to specify the position when it becomes fixed.
    - Useful for creating elements that stick to a specific position as the user scrolls, such as sticky headers or sidebars.
 
-## explain flex box
+## css flex box
 
 - how to use, how does it work?
 - how to align the main axios?
@@ -57,5 +57,19 @@ static, fixed, absolute, relative, and sticky
   - `flex-grow: [1|2|3|...]`: auto expand when enough space
   - `flex-shink: [1|2|3|...]`: auto shrink to min size
 
+## css grid
+
+- how is grid compare to flex box?
+- when to use it?
+- how to define a grid container?
+
+%
+
+- introduce to css after flex box (flex box has a bit more browser compatibility)
+- it is used to create two-dimensional layout for more complex layout (compare to flex box one dimensional: row or column)
+- use `display: grid` to define a grid container
+  - `grid-template-rows` used to config row style
+  - `grid-template-columns` used to config column style
+  - many more
 
 *************** TO ANKI *******************************
