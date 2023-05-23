@@ -56,3 +56,6 @@ static, fixed, absolute, relative, and sticky
 - `flex-basis: 200px`: sets the initial main size of a flex item
   - `flex-grow: [1|2|3|...]`: auto expand when enough space
   - `flex-shink: [1|2|3|...]`: auto shrink to min size
+
+
+*************** TO ANKI *******************************
