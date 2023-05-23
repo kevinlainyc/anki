@@ -25,7 +25,7 @@ Based on my research, I believe that this position fits my skill sets very well(
 
 %
 
-For the pase few years, I'v worked on Numerix OneView. It is a risk management and trading platform designed for financial institutions such as banks, hedge funds, and asset managers. It helps these firms manage risk and optimize trading strategies across a wide range of asset classes such as derivatives, fixed income instruments.
+For the past few years, I've worked on Numerix OneView. It is a risk management and trading platform designed for financial institutions such as banks, hedge funds, and asset managers. It helps these firms manage risk and optimize trading strategies across a wide range of asset classes such as derivatives, fixed income instruments.
 
 Our team responsible for architecture and development of the front-end. We used Javascript/TypeScript, React and Redux to develop and optimize GUI components.
 Apart from development, I am also responsible for mentoring interns and junior developers for out team.
