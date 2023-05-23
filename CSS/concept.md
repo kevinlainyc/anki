@@ -35,3 +35,24 @@ static, fixed, absolute, relative, and sticky
    - Once the threshold is reached, it becomes fixed to its specified position.
    - Use top, right, bottom, and left properties to specify the position when it becomes fixed.
    - Useful for creating elements that stick to a specific position as the user scrolls, such as sticky headers or sidebars.
+
+## explain flex box
+
+- how to use, how does it work?
+- how to align the main axios?
+- how to align the corss sestion?
+- how to wrap contents
+- how to set initial main size of flex item?
+
+%
+
+- use `display: flex` to define a flex container, any item direct nested inside the container is a **flex item**
+  - default align is on row axis
+  - `flex-direction: column` set flex container to align on column axis
+  - `flex-flow: column wrap` equals flex-direction + flex-wrap
+- use `adjustify-content` to change align on the main axis
+- use `align-item` to change align on the cross axis
+- `flex-wrap: wrap` to auto wrap it's contents
+- `flex-basis: 200px`: sets the initial main size of a flex item
+  - `flex-grow: [1|2|3|...]`: auto expand when enough space
+  - `flex-shink: [1|2|3|...]`: auto shrink to min size
