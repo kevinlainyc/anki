@@ -188,3 +188,140 @@ for text, background, text underline, border, divide, outline, box shadow, accen
 - grayscale: `grayscale`
 - invert: `invert`
 - sepia: `sepia`
+
+## interactivity
+
+- hover
+- focus
+- active
+- styling based on parent state:
+- pseudo classes
+- appearance
+- cursor
+- resize
+- user select
+- smooth scroll
+
+%
+
+- hover: `hover:[color on hover]`
+- focus: `focus:[color on focus]`
+- active: `active:[color on active]`
+- styling based on parent state:
+  - parent: `group`
+  - child: `group-hover|group-focus|group-active:[options]`
+- pseudo classes: `first|last|odd|even|visited|checked|empty|read-only|focus-within|hover|focus|focus-visible|active|disabled:[color options]`
+- appearance: Use `appearance-none` to reset any browser specific styling on an element.
+- cursor: `cursor-[auto|default|pointer|wait|text|move|not-allowed|...]`
+- resize: `resize-[none|y|x|...]` (for textarea only)
+- user select: `select-[none|text|all|auto]`
+- smooth scroll: `scroll-[auto|smooth]`
+
+## breakpoints
+
+%
+
+- sm|md|lg|xl|2xl:[options]
+- sm: 640px
+- md: 768px
+- lg: 1024px
+- xl: 1280px
+- 2xl: 1536px
+
+## columns
+
+%
+
+- `columns-[1|2|3|...|12|auto|3xs|2xs|xs|sm|md|lg|xl|2xl|3xl|...|8xl]`
+- `columns-[xs|sm|...]` will stack on smaller screens
+
+## flexbox vs grid
+
+%
+
+Flexbox:
+    - Flexbox is a one-dimensional layout system that is best suited for arranging items in a single row or column.
+    - It provides a flexible and dynamic layout, allowing items to resize and distribute space within a container.
+    - Flexbox is great for creating responsive designs, aligning items vertically or horizontally, and creating flexible grids.
+    - Tailwind CSS provides utility classes like **flex, flex-row, flex-col, justify-start, justify-center, items-center**, etc., to easily apply flexbox properties to elements.
+
+Grid:
+    - Grid is a two-dimensional layout system that allows you to create complex grid structures with rows and columns.
+    - It provides precise control over the placement and alignment of items within the grid.
+    - Grid is useful for creating more complex layouts, such as multi-column designs, card layouts, or grid-based designs.
+    - Tailwind CSS provides utility classes like **grid, grid-cols-{number}, grid-rows-{number}, col-span-{number}, row-span-{number}**, etc., to apply grid-related properties to elements.
+
+## animation in tailwind css
+
+%
+
+- transition
+- animation
+- custom animation  
+
+  ```js
+  tailwind.config = {
+    theme: {
+      extends: {
+        animation: {
+          'spin-slow': 'spin 3s linear infinite',
+          wiggle: 'wiggle 1s ease-in-out infinite', // wiggle the custom animation name
+        },
+        keyframes: {
+          wiggle: {
+            '0%, 100%': { transform: 'rotate(-3deg)' },
+            '50%': { transform: 'rotate(3deg)' },
+          },
+      },
+    },
+  }
+  ```
+
+## how to customizing tailwind css
+
+%
+
+- tailwind.config.js
+
+```js
+tailwind.config = {
+  theme: {
+    screens: {
+      sm: '640px', // set your own breakpoint
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
+    fontFamily: {
+      ...
+    },  
+    extend: {
+      colors: {
+        ...
+      },
+      spacing: {
+        ...
+      },
+      ...
+    },
+  }
+}
+```
+
+## dark-mode
+
+%
+
+- use dark (controlled by browser): 
+  - `dark: followed by style class for dark mode`
+- class based:
+  1. config tailwind.config.js
+  2. add class to html tag
+
+    ```js
+    tailwind.config = {
+      darkMode: 'class',
+    }
+
+    <html class='dark'>
+    ```
