@@ -389,13 +389,12 @@ Maintaining a good work-life balance is important to me as it allows me to recha
 
 ---
 
-During one of my previous project, I was approached by the QA team manager and was asked to help develop a modern UI for their internal tool, Template Studio. Given my interest and passion for frontend development, I jumped at the chance of working on this project without giving much thought to the requirements.
+I worked on a task to build a ui that provides customizable charts, animations, and a variety of themes. My manager plans to demonstrate it during the company's annual kickoff meeting.
 
-My team and I worked tirelessly to deliver a beautiful UI in the shortest time possible. Once we presented it to the QA team, they immediately began selling the product to a few clients who had expressed interest previously.
+During the kickoff week (my manager needs to attend for an entire week), I feel he is busy attending all kinds of meetings. Therefore, based on my previous experience working with sales team, I assumed that the theme is not very important and decided to leave it to our intern without confirming with my manager.
 
-However, to our surprise, the clients were not interested in the product anymore. They had found a solution that met their needs, and Template Studio was not able to offer something unique or better. It was then that we realized that we failed to conduct proper market research to understand the needs of our potential users.
+Two days before the demo, my manager asked for the progress. I reported that I was able to finish most of the features, except the themes are still at an early stage. They currently support only two colors and do not allow any customization (which is as planned, as we will refactor it later). My manager was surprised and asked if we could finish the customization feature as soon as possible because it is an important feature they want to showcase during the demo.
 
-Learning from this experience, I stressed the importance of doing thorough market research before jumping into any project. We learned that the product's marketability is just as important as its quality.
-add detail why client not want this product
+I worked overnight and still wasn't able to provide full customization. My manager wasn't happy about it, and he had to do the demo with the limited feature. I learned that as a developer, you should never assume; you should always communicate and make sure you understand the requirements of your stakeholders.
 
 [#Behavior::Question::PersonalGrowth]
