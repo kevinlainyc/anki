@@ -28,3 +28,18 @@ controller.abort();
 ```
 
 [#Javascript::Async]
+
+## How to check if a key is in an object?
+
+%
+
+use `in` operator
+
+```js
+const obj = { a: 1, b: 2 };
+
+"a" in obj; // true
+"c" in obj; // false
+```
+
+[#Javascript::Basic]

@@ -71,5 +71,3 @@ static, fixed, absolute, relative, and sticky
   - `grid-template-rows` used to config row style
   - `grid-template-columns` used to config column style
   - many more
-
-*************** TO ANKI *******************************

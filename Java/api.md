@@ -51,5 +51,3 @@ System.out.println(sb.toString());
 ```
 
 [#Java::Api::StringManipulation]
-
-*************** TO ANKI *******************************
