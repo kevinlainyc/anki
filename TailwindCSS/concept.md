@@ -325,3 +325,52 @@ tailwind.config = {
 
     <html class='dark'>
     ```
+
+## tailwind directives
+
+%
+
+- @tailwind: Use the @tailwind directive to insert Tailwind’s base, components, utilities and variants styles into your CSS.
+- @layer: Use the @layer directive to tell Tailwind which “bucket” a set of custom styles belong to. Valid layers are base, components, and utilities.
+- @apply: Use @apply to inline any existing utility classes into your own custom CSS.
+- @config: Use the @config directive to specify which config file Tailwind should use when compiling that CSS file. This is useful for projects that need to use different configuration files for different CSS entry points.
+  - Don’t put @config before your @import statements
+
+## how to theme function
+
+%
+
+- Use theme function to access your Tailwind config values from within your CSS.
+
+```js
+// tailwind.config.js
+module.exports = {
+  ...
+  theme: {
+    extend: {
+      spacing: {
+        128: "32rem",
+      },
+    },
+  },
+  ...
+};
+
+// access from your tailwind css file
+.my-class {
+  height: theme("spacing.128");
+}
+```
+
+## how to use screen function
+
+%
+
+- Use the screen function to access your Tailwind breakpoints from within your CSS.
+
+```js
+@media screen(xl) {
+  body {
+    @apply bg-red-500; // body turn red-500 when screen size reach xl
+  }
+}
