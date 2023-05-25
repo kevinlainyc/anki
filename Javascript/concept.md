@@ -43,3 +43,19 @@ const obj = { a: 1, b: 2 };
 ```
 
 [#Javascript::Basic]
+
+## Truthy and Falsy in javascript
+
+list all values that are consider falsy in js
+
+%
+
+All values are considered truthy except the following:
+
+- false
+- All forms of zero, meaning 0, -0 (output of 0/-1), and 0n (output of BigInt(0))
+- NaN ("Not a Number", one way to get it is with 0/0)
+- "" (empty string)
+- null
+- undefined
+
