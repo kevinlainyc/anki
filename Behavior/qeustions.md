@@ -63,7 +63,7 @@ I am passionate about staying up-to-date with the latest trends in web developme
 2. How big is your engineering team?
 3. Which team would I be interviewing for?
 4. What is the company/team culture like?
-5. Who are yoour main competitors?
+5. Who are your main competitors?
 6. What sort of projects would I be working on?
 
 ## Tell Me About a Time You Failed
