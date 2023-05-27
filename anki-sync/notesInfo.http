@@ -1,0 +1,10 @@
+POST http://localhost:8765/notesInfo
+Content-Type: application/json
+
+{
+    "action": "notesInfo",
+    "version": 6,
+    "params": {
+        "notes": [1549294409178]
+    }
+}

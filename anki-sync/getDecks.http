@@ -1,0 +1,7 @@
+POST http://localhost:8765/deckNamesAndIds
+# Content-Type: application/json
+
+{
+  "action": "deckNamesAndIds",
+  "version": 6
+}

@@ -1,0 +1,17 @@
+POST http://localhost:8765
+Content-Type: application/json
+
+{
+    "action": "updateNote",
+    "version": 6,
+    "params": {
+        "note": {
+            "id": 1549294409178,
+            "fields": {
+                "Front": "begin of WORD forward (OXxo)",
+                "Back": "W (YYY updated)"
+            },
+            "tags": ["vim", "vim::cursor_movement"]
+        }
+    }
+}

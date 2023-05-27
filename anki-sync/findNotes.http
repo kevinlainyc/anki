@@ -1,0 +1,10 @@
+POST http://localhost:8765/findNotes
+Content-Type: application/json
+
+{
+    "action": "findNotes",
+    "version": 6,
+    "params": {
+        "query": "deck:IT::Vim"
+    }
+}
