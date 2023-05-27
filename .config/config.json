@@ -1,0 +1,14 @@
+{
+  "url": "http://localhost:8765",
+  "notetype": "KaTeX and Markdown Cloze",
+  "ankiConnect": {
+    "version": 6
+  },
+  "cardTemplate": {
+    "KaTeX and Markdown Cloze": {
+      "front": "c:\\Users\\laisi\\Downloads\\git repo\\vscode workspace\\anki\\template\\KaTeX and Markdown Cloze\\front.html",
+      "back": "c:\\Users\\laisi\\Downloads\\git repo\\vscode workspace\\anki\\template\\KaTeX and Markdown Cloze\\back.html"
+    }
+  },
+  "cardCss": "c:\\Users\\laisi\\Downloads\\git repo\\vscode workspace\\anki\\template\\styling.css"
+}
