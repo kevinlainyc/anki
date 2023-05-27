@@ -1,12 +1,12 @@
-const ankiReq = require("../util/ankiReq");
+const ankiReq = require("./ankiReq");
 const fs = require("fs");
 
-(async () => {
+const getNotes = async (deckName, fileName) => {
   const noteIds = await ankiReq({
     action: "findNotes",
     version: 6,
     params: {
-      query: "deck:IT::Vim",
+      query: `deck:${deckName}`,
     },
   });
 
@@ -21,7 +21,7 @@ const fs = require("fs");
   try {
     // Write the modified JSON data to a new file
     fs.writeFile(
-      "output.json",
+      `./${fileName}.json`,
       JSON.stringify(notes, null, 2),
       "utf8",
       (err) => {
@@ -35,4 +35,6 @@ const fs = require("fs");
   } catch (err) {
     console.error(err);
   }
-})();
+};
+
+module.exports = getNotes;

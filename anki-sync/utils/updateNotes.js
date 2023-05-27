@@ -1,8 +1,8 @@
-const ankiReq = require("../util/ankiReq");
+const ankiReq = require("./ankiReq");
 const fs = require("fs");
 
-(async () => {
-  const notes = JSON.parse(fs.readFileSync("output.json", "utf8"));
+const updateNotes = async (deckName, fileName) => {
+  const notes = JSON.parse(fs.readFileSync(`./${fileName}.json`, "utf8"));
 
   const toUpdate = notes.map((note) => {
     return {
@@ -32,4 +32,6 @@ const fs = require("fs");
       console.error(err);
     }
   }
-})();
+};
+
+module.exports = updateNotes;
