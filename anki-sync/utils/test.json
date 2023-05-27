@@ -1,0 +1,56 @@
+[
+  {
+    "noteId": 1546629072238,
+    "tags": [],
+    "fields": {
+      "ID (hidden)": {
+        "value": "5890f814e5914f33a93e635bdd3c0dda-ao-1",
+        "order": 0
+      },
+      "Header": {
+        "value": "<div style=\"text-align: center;\">How to check if a string contains only digits in Java use regex ?</div>",
+        "order": 1
+      },
+      "Image": {
+        "value": "<img src=\"Capture (1).JPG\">",
+        "order": 2
+      },
+      "Question Mask": {
+        "value": "<img src=\"5890f814e5914f33a93e635bdd3c0dda-ao-1-Q.svg\">",
+        "order": 3
+      },
+      "Footer": {
+        "value": "Q1: Isn't it necessary to add ^ and $ to the regex, so it won't match \"aa123bb\" ?<br>Q2: Won't this also match the empty string, \"\" ?<br>Q3: Isn't it faster to compile a regex Pattern?",
+        "order": 4
+      },
+      "Remarks": {
+        "value": "Q1: No. In java, the matches method (which was specified in the question) matches a complete string, not fragments. <br>In other words, it is not necessary to use ^\\\\d+$ (even though it is also correct). Please see the last negative test case.<br><br>Please note that if you use an online \"regex checker\" then this may behave differently. <br>To match fragments of a string in Java, you can use the find method instead, described in detail here:<br><br>Difference between matches() and find() in Java Regex<br><br>Q2: No. A regex \\\\d* would match the empty string, but \\\\d+ does not. The star * means zero or more, <br>whereas the plus + means one or more. Please see the first negative test case.<br><br>Q3: Yes. It is indeed faster to compile a regex Pattern once, rather than on every invocation of matches, <br>and so if performance implications are important then a Pattern can be compiled and used like this:<br><br><center><table><tbody><tr><td><div class=\"highlight\" style=\"background: #f8f8f8\"><pre style=\"line-height: 125%\">Pattern pattern <span style=\"color: #666666\">=</span> Pattern<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">compile</span><span style=\"color: #666666\">(</span>regex<span style=\"color: #666666\">);</span>\nSystem<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">out</span><span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">println</span><span style=\"color: #666666\">(</span>pattern<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">matcher</span><span style=\"color: #666666\">(</span><span style=\"color: #BA2121\">\"1\"</span><span style=\"color: #666666\">).</span><span style=\"color: #7D9029\">matches</span><span style=\"color: #666666\">());</span>\nSystem<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">out</span><span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">println</span><span style=\"color: #666666\">(</span>pattern<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">matcher</span><span style=\"color: #666666\">(</span><span style=\"color: #BA2121\">\"12345\"</span><span style=\"color: #666666\">).</span><span style=\"color: #7D9029\">matches</span><span style=\"color: #666666\">());</span>\nSystem<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">out</span><span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">println</span><span style=\"color: #666666\">(</span>pattern<span style=\"color: #666666\">.</span><span style=\"color: #7D9029\">matcher</span><span style=\"color: #666666\">(</span><span style=\"color: #BA2121\">\"123456789\"</span><span style=\"color: #666666\">).</span><span style=\"color: #7D9029\">matches</span><span style=\"color: #666666\">());</span>\n</pre></div>\n</td></tr></tbody></table></center>",
+        "order": 5
+      },
+      "Sources": {
+        "value": "https://stackoverflow.com/questions/15111420/how-to-check-if-a-string-contains-only-digits-in-java",
+        "order": 6
+      },
+      "Extra 1": {
+        "value": "",
+        "order": 7
+      },
+      "Extra 2": {
+        "value": "",
+        "order": 8
+      },
+      "Answer Mask": {
+        "value": "<img src=\"5890f814e5914f33a93e635bdd3c0dda-ao-1-A.svg\">",
+        "order": 9
+      },
+      "Original Mask": {
+        "value": "<img src=\"5890f814e5914f33a93e635bdd3c0dda-ao-O.svg\">",
+        "order": 10
+      }
+    },
+    "modelName": "Image Occlusion Enhanced",
+    "cards": [
+      1546629072240
+    ]
+  }
+]

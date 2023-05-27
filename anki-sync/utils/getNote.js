@@ -1,26 +1,21 @@
+// 1546629072238
 const ankiReq = require("./ankiReq");
 const fs = require("fs");
 
-const getNotes = async (deckName, fileName) => {
-  const noteIds = await ankiReq({
-    action: "findNotes",
-    version: 6,
-    params: {
-      query: `deck:${deckName}`,
-    },
-  });
+const test = "test";
 
+const getNote = async (noteId) => {
   const notes = await ankiReq({
     action: "notesInfo",
     version: 6,
     params: {
-      notes: noteIds,
+      notes: [1546629072238],
     },
   });
 
   try {
     fs.writeFile(
-      `./${fileName}.json`,
+      `./${test}.json`,
       JSON.stringify(notes, null, 2),
       "utf8",
       (err) => {
@@ -36,4 +31,6 @@ const getNotes = async (deckName, fileName) => {
   }
 };
 
-module.exports = getNotes;
+getNote();
+
+// module.exports = getNote;
