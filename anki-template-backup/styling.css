@@ -3,28 +3,18 @@
     font-family: "Cascadia Code";
     src: url("_CascadiaCode.ttf");
   }
-  .card {
-    font: 20px/30px yh;
-    background-color: white;
-    text-align: left;
-  }
-  
+
   .h1 {
-    font: 22px/22px yh;
+    font: 15px/22px yh;
     padding: 0.3em 0em 0.3em 0.5em;
     font-family: "Cascadia Code", "Consolas", Overpass, "GlowSansSC", "Helvetica Neue",
       "pingfang sc", "microsoft yahei", sans-serif;
   }
   .h2 {
-    font: 20px/30px yh;
+    font: 12px/15px yh;
     padding: 0.3em 0em 0.3em 0.5em;
     font-family: "Cascadia Code", "Consolas", Overpass, "GlowSansSC", "Helvetica Neue",
       "pingfang sc", "microsoft yahei", sans-serif;
-  }
-  
-  code {
-    font-family: "Cascadia Code", "Courier New", "Consolas", Overpass,
-      "GlowSansSC", "Helvetica Neue", "pingfang sc", "microsoft yahei", sans-serif;
   }
   
   .redleft {
@@ -41,6 +31,10 @@
   }
   .purpleleft {
     border-left: 3px solid #594d9c;
+  }
+
+  code {
+		color: #E55593;
   }
   
   .code {
@@ -117,8 +111,7 @@
     max-width: 100%;
     vertical-align: middle;
   }
-  ul,
-  ol {
+  ul, ol {
     margin-top: 0em;
   }
   ul li {
