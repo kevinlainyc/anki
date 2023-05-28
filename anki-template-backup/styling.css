@@ -4,6 +4,14 @@
     src: url("_CascadiaCode.ttf");
   }
 
+	li a {
+		color: green;
+	}
+
+	li a:hover {
+		color: #ce9178;
+	}
+
   .h1 {
     font: 15px/22px yh;
     padding: 0.3em 0em 0.3em 0.5em;
