@@ -1,10 +1,10 @@
-{{FrontSide}} 
+{{FrontSide}}
 
 {{#AnswerText}}
 <hr />
 <div class="slide">
   <div class="h1 pink pinkleft">
-    <span class="pinkimg"><img src="_space.png" height="24" width="24" style="opacity: 0"; /></span>
+    <span class="pinkimg"><img src="" height="24" width="24" style="opacity: 0" ; /></span>
     Answer
   </div>
   <div id='answer'>{{AnswerText}}</div>
@@ -12,15 +12,15 @@
 
 
 {{#Tags}}
-	<div class="h1 red redleft wordwrap">[Tags] {{Tags}}</div>
-{{/Tags}} 
-{{/AnswerText}} 
+<div class="h1 red redleft wordwrap">[Tags] {{Tags}}</div>
+{{/Tags}}
+{{/AnswerText}}
 
 {{#AnswerCode}}
 <hr />
 <div class="slide">
   <div class="h1 blue blueleft">
-    <span class="blueimg"><img src="_space.png" height="24" width="24" style="opacity: 0"; /></span>
+    <span class="blueimg"><img src="" height="24" width="24" style="opacity: 0" ; /></span>
     Code
   </div>
   <div class="h2 blueleft code wordwrap">{{AnswerCode}}</div>
@@ -31,9 +31,7 @@
 <hr />
 <div class="slide">
   <div class="h1 green greenleft">
-    <span class="greenimg"
-      ><img src="_space.png" height="24" width="24" style="opacity: 0"; 
-    /></span>
+    <span class="greenimg"><img src="" height="24" width="24" style="opacity: 0" ; /></span>
     Mindmap
   </div>
   <div class="h2 greenleft">
@@ -41,7 +39,7 @@
     <div id="mindmaptext" hidden>{{Mindmap}}</div>
   </div>
 </div>
-{{/Mindmap}} 
+{{/Mindmap}}
 
 <script>
   var getResources = [
@@ -52,10 +50,10 @@
     getScript("_auto-render.js", "https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/auto-render-cdn.js"),
     getScript("_markdown-it.min.js", "https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js"),
     getScript("_markdown-it-mark.js", "https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/_markdown-it-mark.js"),
+    getScript("_mhchem.js", "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js"),
     getScript("_d3@6.js", "https://cdn.jsdelivr.net/npm/d3@6"),
     getScript("_markmap-lib.js", "https://cdn.jsdelivr.net/npm/markmap-lib"),
-    getScript("_markmap-view.js", "https://cdn.jsdelivr.net/npm,/markmap-view"),
-    getScript("_mhchem.js", "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js")
+    getScript("_markmap-view.js", "https://cdn.jsdelivr.net/npm,/markmap-view")
   ];
 
   Promise.all(getResources)
@@ -63,9 +61,9 @@
   // .catch(show);
 
   function render() {
+    mindmap("mindmaptext");
     renderMath("answer");
     markdown("answer");
-    mindmap("mindmaptext");
     show();
   }
 
